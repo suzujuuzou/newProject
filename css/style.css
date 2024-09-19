@@ -81,3 +81,40 @@ a {
     font-size: 20px;
     font-weight: 600;
 }
+
+.main {
+    position: relative;
+}
+
+.main__bg {
+    position: fixed;
+    bottom: -100px;
+}
+
+.hero {
+    height: 100vh;
+    padding-top: 165px;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__content {
+    max-width: 610px;
+}
+
+.hero__title {
+    font-size: 130px;
+    line-height: 115px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.hero__span {
+    font-size: 95px;
+    font-weight: 600;
+    color: var(--color-accent);
+}
