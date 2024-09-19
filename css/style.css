@@ -16,10 +16,17 @@
     --color-text: #E0E1E3;
     --color-light-bg: #191C27;
     --color-dark-bg: #12141C;
+    --color-accent-opacity: #B2141466;
 }
 
 a {
     text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .application {
@@ -36,7 +43,6 @@ a {
 
 .header {
     padding: 30px 0;
-
 }
 
 .header__container {
@@ -117,4 +123,32 @@ a {
     font-size: 95px;
     font-weight: 600;
     color: var(--color-accent);
+}
+
+.about {
+    height: 100vh;
+    padding-top: 128px;
+}
+
+.about__container {
+    display: flex;
+    gap: 65px;
+}
+
+.about__descr {
+    max-width: 593px;
+    color: var(--color-white);
+}
+
+.about__list {
+    max-width: 783px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+}
+
+.about__item {
+    padding: 10px 16px;
+    background-color: var(--color-accent-opacity);
+    border-radius: 30px;
 }
